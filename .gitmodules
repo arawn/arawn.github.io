@@ -1,0 +1,7 @@
+[submodule "themes/hugo-devresume-theme"]
+	path = themes/hugo-devresume-theme
+	url = git@github.com:arawn/hugo-devresume-theme.git
+[submodule "public"]
+	path = public
+	url = git@github.com:arawn/arawn.github.io.git
+	branch = masater

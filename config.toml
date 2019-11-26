@@ -1,0 +1,270 @@
+baseURL = "https://arawn.github.io/"
+languageCode = "ko"
+title = "Arawn Park"
+theme = "hugo-devresume-theme"
+googleAnalytics = "UA-102620481-1"
+
+[params]
+    author = "Arawn Park"
+    description = ""
+
+    primaryColor = "#54B689"
+    textPrimaryColor = "#292929"
+
+    [params.profile]
+        enable = true
+        name = "Arawn Park"
+        tagline = "Enterprise Software Engineer"
+        avatar = "avatar.jpg"
+
+    [params.contact]
+        enable = true
+        location = "Seoul, South Korea"
+
+        [[params.contact.list]]
+        style = "fab"
+        icon = "fa-github-square"
+        url = "//github.com/arawn"
+        text = "github.com/arawn"
+        [[params.contact.list]]
+        style = "fab"
+        icon = "fa-linkedin"
+        url = "//linkedin.com/in/arawn"
+        text = "linkedin.com/in/arawn"
+
+    [params.skills]
+        enable = true
+
+        [[params.skills.list]]
+        title = "Technical"
+        [[params.skills.list.items]]
+        details = "Core Java and Java EE(Servlet, JPA, JTA, JDBC, JMS, Bean Validation)"
+        [[params.skills.list.items]]
+        details = "Spring Framework and projects(Boot, Data, Cloud, Security, Batch, Integration)"
+        [[params.skills.list.items]]
+        details = "Web technologies(JavaScript, HTML, CSS)"
+        [[params.skills.list.items]]
+        details = "iOS(Objective-C, Cocoa)"
+        [[params.skills.list.items]]
+        details = "Database(Oracle, MySQL, SQL Server)"
+        [[params.skills.list.items]]
+        details = "Build automation(Gradle, Maven, Grunt)"
+        [[params.skills.list.items]]
+        details = "SCM(Git, Subversion)"
+
+        [[params.skills.list]]
+        title = "Professional"
+        [[params.skills.list.items]]
+        details = "팀 빌딩 및 운영"
+        [[params.skills.list.items]]
+        details = "프로젝트 관리"
+        [[params.skills.list.items]]
+        details = "기술 교육 및 전파"
+
+    [params.education]
+        enable = true
+
+        [[params.education.list]]
+        degree = "인터넷정보전공"
+        university = "동의과학대학교"
+        dates = "2004 - 2006"
+
+    [params.awards]
+        enable = false
+
+        [[params.awards.list]]
+        name = "Award Lorem Ipsum"
+        body = "Microsoft lorem ipsum"
+        date = "2019"
+        [[params.awards.list]]
+        name = "Award Donec Sodales"
+        body = "Oracle Aenean"
+        date = "2017"
+
+    [params.languages]
+        enable = false
+
+        [[params.languages.list]]
+        name = "한국어"
+        level = "Korean"
+
+    [params.interests]
+        enable = true
+
+        [[params.interests.list]]
+        name = "커뮤니티 활동"
+        [[params.interests.list]]
+        name = "겨울 산행"
+
+    [params.summary]
+        enable = true
+        text = "시니어 소프트웨어 엔지니어 겸 아키텍트로 약 14년간 엔터프라이즈 애플리케이션을 개발 및 운영했다. 웹과 모바일 환경에 필요한 기술을 조합해 아키텍처 설계부터 구현, 시스템 통합을 할 수 있으며 팀 빌딩 및 업무, 협업 관리 경험이 있다. 그 외 사내 기술 교육과 에반젤리스트 활동과 커뮤니티, 콘퍼런스 등에서 세미나 및 교육 활동을 하고 있다."
+
+    [params.experience]
+        enable = true
+
+        [[params.experience.list]]
+        title = "Senior Software Engineer"
+        dates = "2016.9 - Present"
+        company = "우아한형제들, 우아한신선들"
+        details = "AWS, Spring IO Platform 기반에 Cloud-Native Application 구축을 위한 전략 수립과 구축을 주도적으로 이끌며, 배민찬(B2C) 레거시 시스템을 점진적으로 신규 시스템으로 재구축 및 이관 업무를 수행했다. 이후 배민사장님광장(B2B)과 배민회원(B2C) 서비스의 전략 수립 및 개발, 운영을 목적으로 신설된 팀을 이끌었다. 팀원들이 안정적으로 업무를 진행할 수 있도록 컨택포인트(contact point) 임무를 수행하고, 업무 규칙과 절차를 정리했다. 그 외 담당하는 시스템의 아키텍처 전환을 통해 불안정한 시스템을 안정시키고, 데이터베이스 플랫폼 전환을 통해 비용 절감 효과를 얻었다."
+        [[params.experience.list.items]]
+        details = "마이크로서비스 스타일 시스템을 모노리틱 스타일 시스템으로 재구축"
+        [[params.experience.list.items]]
+        details = "데이터베이스 이관 전략 수립 및 수행 (MSSQL to Amazon Aurora)"
+        [[params.experience.list.items]]
+        details = "Spring Cloud 기반 API Gateway 구축, 운용 (authentication, routing, transform, rate limit, etc)"
+        [[params.experience.list.items]]
+        details = "PHP 기반 레거시 시스템을 Java EE 기반 신규 시스템으로 점진적인 전환"
+        [[params.experience.list.items]]
+        details = "모노리틱 스타일 시스템을 마이크로서비스 스타일로 점진적인 전환"
+        [[params.experience.list.items]]
+        details = "이벤트 기반 분산 시스템 설계 및 구축, 운영(Spring Boot, Spring Cloud, AWS SQS+SNS)"
+        [[params.experience.list.items]]
+        details = "AWS 기반 시스템 인프라 구축 및 관리"
+
+        [[params.experience.list]]
+        title = "Senior Software Engineer"
+        dates = "2012.8 - 2016.8"
+        company = "SK planet"
+        details = " "
+        [[params.experience.list.items]]
+        details = "총 8개에 웹 서비스를 Java EE 기반 애플리케이션 아키텍처 설계 및 구축, 운영"
+        [[params.experience.list.items]]
+        details = "마이크로서비스 아키텍처 스타일을 응용, 메시지 기반 비동기 서비스 프로세스 설계 및 구축"
+        [[params.experience.list.items]]
+        details = "Spark 기반 애플리케이션 테스트 환경 구축, 알고리즘 구현 생산성 확보"
+        [[params.experience.list.items]]
+        details = "iOS 및 JavaScript 기반 광고 플랫폼 SDK 개발"
+        [[params.experience.list.items]]
+        details = "장애 전파 방지를 위한 서킷 브레이커 개발 및 적용"
+        [[params.experience.list.items]]
+        details = "Vagrant, Chef solo를 이용해 규격화된 개발 환경 제공"
+        [[params.experience.list.items]]
+        details = "사내 기술교육 강사 및 전사 아키텍처 리뷰어, 프로젝트 매니저 역할 수행"
+
+        [[params.experience.list]]
+        title = "Software Engineer Team Lead"
+        dates = "2010.9 - 2012.7"
+        company = "드림인프라"
+        details = " "
+        [[params.experience.list.items]]
+        details = "Java EE 기반 애플리케이션 아키텍처 설계, 스켈레톤 프로젝트 구성"
+        [[params.experience.list.items]]
+        details = "시스템 주요 도메인 모델 설계(Rich Domain Model), 보안/로깅/예외/메시지 등 공통모듈 개발"
+        [[params.experience.list.items]]
+        details = "JDK Proxy 기반의 GenericDao 프레임워크 개발(iBatis 프레임워크 확장)"
+        [[params.experience.list.items]]
+        details = "iOS Hybrid App 개발(카메라 제어, QR코드 및 바코드 처리)"
+        [[params.experience.list.items]]
+        details = "검색엔진 솔루션 연동을 목적으로 라이브러리 개발"
+        [[params.experience.list.items]]
+        details = "트위터, 페이스북 API 기반 매시업"
+        [[params.experience.list.items]]
+        details = "요구사항 수집/분석/문서화, 프로젝트 관리, 고객사 업무 협의"
+
+        [[params.experience.list]]
+        title = "Software Engineer"
+        dates = "2009.1 - 2010.1"
+        company = "아이즈솔루션"
+        details = " "
+        [[params.experience.list.items]]
+        details = "시스템 프로토타입, 공통모듈(보안, 로깅, 예외, 메시지), 스켈레톤 프로젝트 개발 및 제공"
+        [[params.experience.list.items]]
+        details = "애플리케이션 프레임워크 구성(Spring / Struts2 / iBatis 기반)"
+        [[params.experience.list.items]]
+        details = "Web API 및 데이터베이스 기반 외부 시스템 통합(여행사, 물류사)"
+        [[params.experience.list.items]]
+        details = "요구사항 수집/분석/문서화, 관계자(사업부, 협업 담당자) 업무 미팅"
+
+        [[params.experience.list]]
+        title = "Software Engineer"
+        dates = "2007.5 - 2008.12"
+        company = "토피아정보기술"
+        details = " "
+        [[params.experience.list.items]]
+        details = "Java EE 기반 KTF-T Product lifecycle management 시스템 유지보수 및 운영"
+        [[params.experience.list.items]]
+        details = "ASP 기반 ERP 시스템 운영 및 유지보수"
+
+        [[params.experience.list]]
+        title = "Software Engineer"
+        dates = "2005.7 - 2007.3"
+        company = "대선주조"
+        details = " "
+        [[params.experience.list.items]]
+        details = "Visual Basic, ASP 기반 사내 ERP 시스템 개발 및 유지보수"
+        [[params.experience.list.items]]
+        details = "Visual Basic 확장 컴포넌트 개발"
+
+    [params.projects]
+        enable = false
+
+        [[params.projects.list]]
+        title = "Project Lorem Ipsum"
+        meta = "Open Source"
+        tagline = "You can use this section for your side projects. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus."
+
+    [params.information]
+        enable = true
+
+        [[params.information.list]]
+        title = "세미나/컨퍼런스 활동"
+        [[params.information.list.items]]
+        details = "2019 · 한국 스프링 사용자 모임 세미나: 잘 키운 모노리스 하나 열 마이크로서비스 안 부럽다"
+        [[params.information.list.items]]
+        details = "2018 · 기업 초대 강연: 점진적인 레거시 웹 애플리케이션 개선 과정"
+        [[params.information.list.items]]
+        details = "2018 · 스프링캠프 컨퍼런스: 이벤트 기반 분산 시스템을 향한 여정"
+        [[params.information.list.items]]
+        details = "2014 · 봄싹 세미나: Resource Handling in Spring MVC"
+        [[params.information.list.items]]
+        details = "2014 · 스프링캠프 컨퍼런스: 조금 더 좋은 개발자가 된다는 것"
+        [[params.information.list.items]]
+        details = "2014 · 한국 자바 개발자 컨퍼런스(JCO Conference): Overview of Spring 4.0"
+        [[params.information.list.items]]
+        details = "2013 · 스프링캠프 컨퍼런스: Core Spring - Java Configuration"
+        [[params.information.list.items]]
+        details = "2013 · 한국 자바 개발자 컨퍼런스(JCO Conference): Spring framework 3.2 > 4.0 — themes and trends"
+        [[params.information.list.items]]
+        details = "2012 · 전자정부 표준프레임워크 오픈커뮤니티 기술세미나 강연: 빠르게 살펴보는 Spring MVC의 모든 것"
+        [[params.information.list.items]]
+        details = "2012 · 전자정부 표준프레임워크 프로젝트 eGov Data Committer"
+        [[params.information.list.items]]
+        details = "2011 · Daum Communications DevOn: Spring Social을 이용한 소셜 앱 만들기"
+        [[params.information.list.items]]
+        details = "2011 · 한국 자바 개발자 컨퍼런스(JCO Conference): Realtime Web Application With Java"
+
+        [[params.information.list]]
+        title = "스프링러너(springrunner.io)"
+        details = "스프링러너는 스프링 기반 애플리케이션을 개발하는데 필요한 지식과 경험을 쌓을 수 있도록 돕는 오프라인 트레이닝 팀으로 참가자가 스프링 프레임워크(Spring Framework), 스프링 부트(Spring Boot) 등 스프링 생태계에서 스프링 작동원리와 사용법을 배우고 거기서 더 나아가 실무에 적용 가능한 스프링 기반 애플리케이션 프로그래밍을 익힐 수 있는 트레이닝 과정을 운영하고 있다."
+
+        [[params.information.list]]
+        title = "스프링캠프(springcamp.io)"
+        details = "스프링캠프는 애플리케이션 서버 개발자들과 함께 가치있는 기술에 관한 정보과 경험을 공유하고, 참가한 사람들과 함께 인연을 만들고, 시끌벅적하게 즐길 수 있는 개발자들을 위한 축제를 목표로 하는 비영리 컨퍼런스입니다. 한국 스프링 사용자 모임(KSUG) 커뮤니티 일꾼단을 중심으로 조직된 운영위원회가 기획부터 운영까지 맡아 매년 1회 개최한다. 2013년부터 2017년까지 5년간 운영위원회장 임무를 수행했습니다."
+
+        [[params.information.list]]
+        title = "한국 스프링 사용자 모임(ksug.org)"
+        details = "한국 스프링 사용자 모임은 스프링을 사용하거나 관심 있는 사람들이 모여 뉴스와 정보를 공유하고 문제를 같이 해결하는 곳이며 스터디, 세미나, 컨퍼런스 등의 오프라인 활동을 중심으로 운영되는 개발자 커뮤니티입니다. 2012년부터 2017년까지 일꾼단(운영진) 활동을 했습니다."
+
+    [params.social]
+        enable = true
+
+        [[params.social.list]]
+        style = "fab"
+        icon = "fa-github-square"
+        url = "//github.com/arawn"
+        title = "arawn"
+        [[params.social.list]]
+        style = "fab"
+        icon = "fa-linkedin"
+        url = "//linkedin.com/in/arawn"
+        title = "arawn"
+        [[params.social.list]]
+        style = "fab"
+        icon = "fa-slideshare"
+        url = "slideshare.net/arawnkr"
+        title = "arawnkr"
+
+    [params.footer]
+        copyright = "Arawn Park"
